@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23F65361E9A13DC006EF284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F65351E9A13DC006EF284 /* main.m */; };
+		B23F65391E9A13DC006EF284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F65381E9A13DC006EF284 /* AppDelegate.m */; };
+		B23F653C1E9A13DD006EF284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F653B1E9A13DD006EF284 /* ViewController.m */; };
+		B23F653F1E9A13DD006EF284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23F653D1E9A13DD006EF284 /* Main.storyboard */; };
+		B23F65421E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23F65401E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodeld */; };
+		B23F65441E9A13DD006EF284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23F65431E9A13DD006EF284 /* Assets.xcassets */; };
+		B23F65471E9A13DD006EF284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23F65451E9A13DD006EF284 /* LaunchScreen.storyboard */; };
+		B23F65521E9A13DD006EF284 /* YHL_CollectionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F65511E9A13DD006EF284 /* YHL_CollectionButtonTests.m */; };
+		B23F655D1E9A13DD006EF284 /* YHL_CollectionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F655C1E9A13DD006EF284 /* YHL_CollectionButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23F654E1E9A13DD006EF284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23F65291E9A13DC006EF284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23F65301E9A13DC006EF284;
+			remoteInfo = YHL_CollectionButton;
+		};
+		B23F65591E9A13DD006EF284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23F65291E9A13DC006EF284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23F65301E9A13DC006EF284;
+			remoteInfo = YHL_CollectionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23F65311E9A13DC006EF284 /* YHL_CollectionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHL_CollectionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23F65351E9A13DC006EF284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23F65371E9A13DC006EF284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23F65381E9A13DC006EF284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B23F653A1E9A13DC006EF284 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B23F653B1E9A13DD006EF284 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B23F653E1E9A13DD006EF284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23F65411E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YHL_CollectionButton.xcdatamodel; sourceTree = "<group>"; };
+		B23F65431E9A13DD006EF284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23F65461E9A13DD006EF284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B23F65481E9A13DD006EF284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23F654D1E9A13DD006EF284 /* YHL_CollectionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHL_CollectionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23F65511E9A13DD006EF284 /* YHL_CollectionButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHL_CollectionButtonTests.m; sourceTree = "<group>"; };
+		B23F65531E9A13DD006EF284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23F65581E9A13DD006EF284 /* YHL_CollectionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHL_CollectionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23F655C1E9A13DD006EF284 /* YHL_CollectionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHL_CollectionButtonUITests.m; sourceTree = "<group>"; };
+		B23F655E1E9A13DD006EF284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23F652E1E9A13DC006EF284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F654A1E9A13DD006EF284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F65551E9A13DD006EF284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23F65281E9A13DC006EF284 = {
+			isa = PBXGroup;
+			children = (
+				B23F65331E9A13DC006EF284 /* YHL_CollectionButton */,
+				B23F65501E9A13DD006EF284 /* YHL_CollectionButtonTests */,
+				B23F655B1E9A13DD006EF284 /* YHL_CollectionButtonUITests */,
+				B23F65321E9A13DC006EF284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23F65321E9A13DC006EF284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23F65311E9A13DC006EF284 /* YHL_CollectionButton.app */,
+				B23F654D1E9A13DD006EF284 /* YHL_CollectionButtonTests.xctest */,
+				B23F65581E9A13DD006EF284 /* YHL_CollectionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23F65331E9A13DC006EF284 /* YHL_CollectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				B23F65371E9A13DC006EF284 /* AppDelegate.h */,
+				B23F65381E9A13DC006EF284 /* AppDelegate.m */,
+				B23F653A1E9A13DC006EF284 /* ViewController.h */,
+				B23F653B1E9A13DD006EF284 /* ViewController.m */,
+				B23F653D1E9A13DD006EF284 /* Main.storyboard */,
+				B23F65431E9A13DD006EF284 /* Assets.xcassets */,
+				B23F65451E9A13DD006EF284 /* LaunchScreen.storyboard */,
+				B23F65481E9A13DD006EF284 /* Info.plist */,
+				B23F65401E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodeld */,
+				B23F65341E9A13DC006EF284 /* Supporting Files */,
+			);
+			path = YHL_CollectionButton;
+			sourceTree = "<group>";
+		};
+		B23F65341E9A13DC006EF284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23F65351E9A13DC006EF284 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B23F65501E9A13DD006EF284 /* YHL_CollectionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23F65511E9A13DD006EF284 /* YHL_CollectionButtonTests.m */,
+				B23F65531E9A13DD006EF284 /* Info.plist */,
+			);
+			path = YHL_CollectionButtonTests;
+			sourceTree = "<group>";
+		};
+		B23F655B1E9A13DD006EF284 /* YHL_CollectionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B23F655C1E9A13DD006EF284 /* YHL_CollectionButtonUITests.m */,
+				B23F655E1E9A13DD006EF284 /* Info.plist */,
+			);
+			path = YHL_CollectionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23F65301E9A13DC006EF284 /* YHL_CollectionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23F65611E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButton" */;
+			buildPhases = (
+				B23F652D1E9A13DC006EF284 /* Sources */,
+				B23F652E1E9A13DC006EF284 /* Frameworks */,
+				B23F652F1E9A13DC006EF284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHL_CollectionButton;
+			productName = YHL_CollectionButton;
+			productReference = B23F65311E9A13DC006EF284 /* YHL_CollectionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23F654C1E9A13DD006EF284 /* YHL_CollectionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23F65641E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButtonTests" */;
+			buildPhases = (
+				B23F65491E9A13DD006EF284 /* Sources */,
+				B23F654A1E9A13DD006EF284 /* Frameworks */,
+				B23F654B1E9A13DD006EF284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23F654F1E9A13DD006EF284 /* PBXTargetDependency */,
+			);
+			name = YHL_CollectionButtonTests;
+			productName = YHL_CollectionButtonTests;
+			productReference = B23F654D1E9A13DD006EF284 /* YHL_CollectionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23F65571E9A13DD006EF284 /* YHL_CollectionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23F65671E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButtonUITests" */;
+			buildPhases = (
+				B23F65541E9A13DD006EF284 /* Sources */,
+				B23F65551E9A13DD006EF284 /* Frameworks */,
+				B23F65561E9A13DD006EF284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23F655A1E9A13DD006EF284 /* PBXTargetDependency */,
+			);
+			name = YHL_CollectionButtonUITests;
+			productName = YHL_CollectionButtonUITests;
+			productReference = B23F65581E9A13DD006EF284 /* YHL_CollectionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23F65291E9A13DC006EF284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨海龙 趣高科技";
+				TargetAttributes = {
+					B23F65301E9A13DC006EF284 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WE53C7634V;
+						ProvisioningStyle = Automatic;
+					};
+					B23F654C1E9A13DD006EF284 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WE53C7634V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B23F65301E9A13DC006EF284;
+					};
+					B23F65571E9A13DD006EF284 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WE53C7634V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B23F65301E9A13DC006EF284;
+					};
+				};
+			};
+			buildConfigurationList = B23F652C1E9A13DC006EF284 /* Build configuration list for PBXProject "YHL_CollectionButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23F65281E9A13DC006EF284;
+			productRefGroup = B23F65321E9A13DC006EF284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23F65301E9A13DC006EF284 /* YHL_CollectionButton */,
+				B23F654C1E9A13DD006EF284 /* YHL_CollectionButtonTests */,
+				B23F65571E9A13DD006EF284 /* YHL_CollectionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23F652F1E9A13DC006EF284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F65471E9A13DD006EF284 /* LaunchScreen.storyboard in Resources */,
+				B23F65441E9A13DD006EF284 /* Assets.xcassets in Resources */,
+				B23F653F1E9A13DD006EF284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F654B1E9A13DD006EF284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F65561E9A13DD006EF284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23F652D1E9A13DC006EF284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F653C1E9A13DD006EF284 /* ViewController.m in Sources */,
+				B23F65391E9A13DC006EF284 /* AppDelegate.m in Sources */,
+				B23F65361E9A13DC006EF284 /* main.m in Sources */,
+				B23F65421E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F65491E9A13DD006EF284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F65521E9A13DD006EF284 /* YHL_CollectionButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23F65541E9A13DD006EF284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F655D1E9A13DD006EF284 /* YHL_CollectionButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23F654F1E9A13DD006EF284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23F65301E9A13DC006EF284 /* YHL_CollectionButton */;
+			targetProxy = B23F654E1E9A13DD006EF284 /* PBXContainerItemProxy */;
+		};
+		B23F655A1E9A13DD006EF284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23F65301E9A13DC006EF284 /* YHL_CollectionButton */;
+			targetProxy = B23F65591E9A13DD006EF284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23F653D1E9A13DD006EF284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23F653E1E9A13DD006EF284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B23F65451E9A13DD006EF284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23F65461E9A13DD006EF284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23F655F1E9A13DD006EF284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B23F65601E9A13DD006EF284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23F65621E9A13DD006EF284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B23F65631E9A13DD006EF284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B23F65651E9A13DD006EF284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHL_CollectionButton.app/YHL_CollectionButton";
+			};
+			name = Debug;
+		};
+		B23F65661E9A13DD006EF284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHL_CollectionButton.app/YHL_CollectionButton";
+			};
+			name = Release;
+		};
+		B23F65681E9A13DD006EF284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHL_CollectionButton;
+			};
+			name = Debug;
+		};
+		B23F65691E9A13DD006EF284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WE53C7634V;
+				INFOPLIST_FILE = YHL_CollectionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kicom.yanghailong.YHL-CollectionButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHL_CollectionButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23F652C1E9A13DC006EF284 /* Build configuration list for PBXProject "YHL_CollectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F655F1E9A13DD006EF284 /* Debug */,
+				B23F65601E9A13DD006EF284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23F65611E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F65621E9A13DD006EF284 /* Debug */,
+				B23F65631E9A13DD006EF284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B23F65641E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F65651E9A13DD006EF284 /* Debug */,
+				B23F65661E9A13DD006EF284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B23F65671E9A13DD006EF284 /* Build configuration list for PBXNativeTarget "YHL_CollectionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F65681E9A13DD006EF284 /* Debug */,
+				B23F65691E9A13DD006EF284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B23F65401E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B23F65411E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodel */,
+			);
+			currentVersion = B23F65411E9A13DD006EF284 /* YHL_CollectionButton.xcdatamodel */;
+			path = YHL_CollectionButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B23F65291E9A13DC006EF284 /* Project object */;
+}
